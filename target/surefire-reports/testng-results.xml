@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="39592" started-at="2020-09-25T19:41:19Z" finished-at="2020-09-25T19:41:58Z">
+    <groups>
+    </groups>
+    <test name="T2" duration-ms="24274" started-at="2020-09-25T19:41:19Z" finished-at="2020-09-25T19:41:43Z">
+      <class name="test.CrossB">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:test.CrossB@279ad2e3]" name="setup" is-config="true" duration-ms="15662" started-at="2020-09-26T01:11:19Z" finished-at="2020-09-26T01:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:test.CrossB@279ad2e3]" name="demo" duration-ms="8603" started-at="2020-09-26T01:11:34Z" finished-at="2020-09-26T01:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- test.CrossB -->
+    </test> <!-- T2 -->
+    <test name="T1" duration-ms="39592" started-at="2020-09-25T19:41:19Z" finished-at="2020-09-25T19:41:58Z">
+      <class name="test.CrossB">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:test.CrossB@27c6e487]" name="setup" is-config="true" duration-ms="33251" started-at="2020-09-26T01:11:19Z" finished-at="2020-09-26T01:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:test.CrossB@27c6e487]" name="demo" duration-ms="6339" started-at="2020-09-26T01:11:52Z" finished-at="2020-09-26T01:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- test.CrossB -->
+    </test> <!-- T1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
